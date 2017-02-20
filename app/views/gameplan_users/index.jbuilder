@@ -1,0 +1,1 @@
+json.array! @gameplan_users, partial: 'gameplan_users/gameplan_user', as: :gameplan_user

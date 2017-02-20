@@ -1,0 +1,1 @@
+json.array! @gameplans, partial: 'gameplans/gameplan', as: :gameplan

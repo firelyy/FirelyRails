@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cell: MyString
+  name: MyString
+  password_digest: MyString
+  sign_in_count: 1
+  current_sign_in_at: 2017-02-13 20:36:55
+  last_sign_in_at: 2017-02-13 20:36:55
+  current_sign_in_ip: 
+  last_sign_in_ip: 
+  confirmation_token: MyString
+  confirmed_at: 2017-02-13 20:36:55
+  confirmation_sent_at: 2017-02-13 20:36:55
+
+two:
+  cell: MyString
+  name: MyString
+  password_digest: MyString
+  sign_in_count: 1
+  current_sign_in_at: 2017-02-13 20:36:55
+  last_sign_in_at: 2017-02-13 20:36:55
+  current_sign_in_ip: 
+  last_sign_in_ip: 
+  confirmation_token: MyString
+  confirmed_at: 2017-02-13 20:36:55
+  confirmation_sent_at: 2017-02-13 20:36:55

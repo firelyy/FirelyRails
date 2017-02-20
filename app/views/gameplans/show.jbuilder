@@ -1,0 +1,1 @@
+json.partial! "gameplans/gameplan", gameplan: @gameplan
