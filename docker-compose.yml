@@ -4,7 +4,7 @@ services:
   postgres:
     image: 'postgres:9.5'
     environment:
-      POSTGRES_USER: 'gameplanrails'
+      POSTGRES_USER: 'firelyrails'
       POSTGRES_PASSWORD: 'yourpassword'
     ports:
       - '5433:5432'
@@ -27,7 +27,7 @@ services:
     ports:
       - '3000:3000'
     volumes:
-      - '.:/gameplanrails'
+      - '.:/firelyrails'
     env_file:
       - '.env'
 
@@ -38,7 +38,7 @@ services:
     build: .
     command: sidekiq -C config/sidekiq.yml.erb
     volumes:
-      - '.:/gameplanrails'
+      - '.:/firelyrails'
     env_file:
       - '.env'
 
@@ -50,7 +50,7 @@ services:
     ports:
       - '28080:28080'
     volumes:
-      - '.:/gameplanrails'
+      - '.:/firelyrails'
     env_file:
       - '.env'
 
