@@ -1,1 +1,0 @@
-json.partial! "gameplan_users/gameplan_user", gameplan_user: @gameplan_user

@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class GameplanUserTest < ActiveSupport::TestCase
+class EventTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end
