@@ -34,3 +34,4 @@ docker-compose exec --user "$(id -u):$(id -g)" website rails db:migrate
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
+# RailsChatApp
