@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '~> 5.0.1'
 
 # Use Puma as the app server
-gem 'puma', '~> 3.0'
+gem 'puma', '~> 3.12'
 
 # Cors change seeting in # config/initializers/cors.rb
 
