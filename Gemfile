@@ -23,7 +23,7 @@ gem 'pg', '~> 0.18'
 gem 'redis-rails', '~> 5.0.0.pre'
 
 # Use Sidekiq as a background job processor through Active Job
-gem 'sidekiq', '~> 4.2'
+gem 'sidekiq', '~> 6.4'
 
 # Using bcrypt for encrypting passwords
 gem 'bcrypt', '~> 3.1.7'
